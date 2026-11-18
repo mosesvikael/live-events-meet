@@ -763,6 +763,33 @@
         "screenIsShared": "You are sharing your screen",
         "showMeWhatImSharing": "Show me what I'm sharing"
     },
+    "liveEvents": {
+        "actionItems": "Action items",
+        "captionsBlocked": "Allow microphone access for this site and turn captions on again.",
+        "captionsError": {
+            "language-not-supported": "This language is not supported for captions.",
+            "not-allowed": "Captions were blocked.",
+            "service-not-allowed": "Captions were blocked."
+        },
+        "captionsLanguageUnsupported": "Your browser can't caption this language. Change the language in Settings.",
+        "captionsOff": "Stop live captions",
+        "captionsOn": "Live captions",
+        "captionsStopped": "Live captions stopped",
+        "captionsTooltip": "Caption your voice for everyone, in the language set in Settings",
+        "captionsUnsupported": "This browser can't caption your voice. Use Chrome or Edge. You can still read other people's captions.",
+        "copied": "Copied",
+        "copyNotes": "Copy notes",
+        "downloadNotes": "Download notes and transcript (.txt)",
+        "keyPoints": "Key points",
+        "none": "None detected yet.",
+        "notesDraft": "Rule-based draft from live captions and public chat.",
+        "notesEmpty": "Nothing to summarize yet. Turn on Live captions and speak, or send a chat message.",
+        "notesSummary": "{{count}} contributions from {{people}} people in about {{minutes}} min.",
+        "notesTitle": "Meeting notes",
+        "transcript": "Transcript",
+        "whoSpoke": "Who spoke",
+        "you": "You"
+    },
     "liveStreaming": {
         "badRequest": "The live stream request is not valid. Check the stream key and the stream settings.",
         "busy": "We're working on freeing streaming resources. Please try again in a few minutes.",
@@ -1912,32 +1939,5 @@
             "heading": "Whiteboard"
         },
         "screenTitle": "Whiteboard"
-    },
-    "liveEvents": {
-        "actionItems": "Action items",
-        "captionsBlocked": "Allow microphone access for this site and turn captions on again.",
-        "captionsError": {
-            "language-not-supported": "This language is not supported for captions.",
-            "not-allowed": "Captions were blocked.",
-            "service-not-allowed": "Captions were blocked."
-        },
-        "captionsLanguageUnsupported": "Your browser can't caption this language. Change the language in Settings.",
-        "captionsOff": "Stop live captions",
-        "captionsOn": "Live captions",
-        "captionsStopped": "Live captions stopped",
-        "captionsTooltip": "Caption your voice for everyone, in the language set in Settings",
-        "captionsUnsupported": "This browser can't caption your voice. Use Chrome or Edge. You can still read other people's captions.",
-        "copied": "Copied",
-        "copyNotes": "Copy notes",
-        "downloadNotes": "Download notes and transcript (.txt)",
-        "keyPoints": "Key points",
-        "none": "None detected yet.",
-        "notesDraft": "Rule-based draft from live captions and public chat.",
-        "notesEmpty": "Nothing to summarize yet. Turn on Live captions and speak, or send a chat message.",
-        "notesSummary": "{{count}} contributions from {{people}} people in about {{minutes}} min.",
-        "notesTitle": "Meeting notes",
-        "transcript": "Transcript",
-        "whoSpoke": "Who spoke",
-        "you": "You"
     }
 }

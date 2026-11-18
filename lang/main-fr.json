@@ -680,6 +680,33 @@
         "screenIsShared": "Vous êtes en train de partager votre écran",
         "showMeWhatImSharing": "M'afficher ce que je partage"
     },
+    "liveEvents": {
+        "actionItems": "Actions à mener",
+        "captionsBlocked": "Autorisez le micro pour ce site, puis réactivez les sous-titres.",
+        "captionsError": {
+            "language-not-supported": "Cette langue n'est pas prise en charge.",
+            "not-allowed": "Les sous-titres ont été bloqués.",
+            "service-not-allowed": "Les sous-titres ont été bloqués."
+        },
+        "captionsLanguageUnsupported": "Votre navigateur ne peut pas sous-titrer cette langue. Changez la langue dans les paramètres.",
+        "captionsOff": "Arrêter les sous-titres",
+        "captionsOn": "Sous-titres en direct",
+        "captionsStopped": "Sous-titres arrêtés",
+        "captionsTooltip": "Sous-titrez votre voix pour tous, dans la langue choisie dans les paramètres",
+        "captionsUnsupported": "Ce navigateur ne peut pas sous-titrer votre voix. Utilisez Chrome ou Edge. Vous voyez toujours les sous-titres des autres.",
+        "copied": "Copié",
+        "copyNotes": "Copier les notes",
+        "downloadNotes": "Télécharger les notes et la transcription (.txt)",
+        "keyPoints": "Points clés",
+        "none": "Rien pour l'instant.",
+        "notesDraft": "Brouillon généré à partir des sous-titres et du chat public.",
+        "notesEmpty": "Rien à résumer pour l'instant. Activez les sous-titres et parlez, ou envoyez un message.",
+        "notesSummary": "{{count}} contributions de {{people}} personnes en environ {{minutes}} min.",
+        "notesTitle": "Notes de réunion",
+        "transcript": "Transcription",
+        "whoSpoke": "Intervenants",
+        "you": "Vous"
+    },
     "liveStreaming": {
         "busy": "Nous tentons de libérer des ressources de diffusion. Veuillez réessayez dans quelques minutes.",
         "busyTitle": "Tous les flux sont actuellement occupés",
@@ -1696,32 +1723,5 @@
             "heading": "Tableau blanc"
         },
         "screenTitle": "Tableau blanc"
-    },
-    "liveEvents": {
-        "actionItems": "Actions à mener",
-        "captionsBlocked": "Autorisez le micro pour ce site, puis réactivez les sous-titres.",
-        "captionsError": {
-            "language-not-supported": "Cette langue n'est pas prise en charge.",
-            "not-allowed": "Les sous-titres ont été bloqués.",
-            "service-not-allowed": "Les sous-titres ont été bloqués."
-        },
-        "captionsLanguageUnsupported": "Votre navigateur ne peut pas sous-titrer cette langue. Changez la langue dans les paramètres.",
-        "captionsOff": "Arrêter les sous-titres",
-        "captionsOn": "Sous-titres en direct",
-        "captionsStopped": "Sous-titres arrêtés",
-        "captionsTooltip": "Sous-titrez votre voix pour tous, dans la langue choisie dans les paramètres",
-        "captionsUnsupported": "Ce navigateur ne peut pas sous-titrer votre voix. Utilisez Chrome ou Edge. Vous voyez toujours les sous-titres des autres.",
-        "copied": "Copié",
-        "copyNotes": "Copier les notes",
-        "downloadNotes": "Télécharger les notes et la transcription (.txt)",
-        "keyPoints": "Points clés",
-        "none": "Rien pour l'instant.",
-        "notesDraft": "Brouillon généré à partir des sous-titres et du chat public.",
-        "notesEmpty": "Rien à résumer pour l'instant. Activez les sous-titres et parlez, ou envoyez un message.",
-        "notesSummary": "{{count}} contributions de {{people}} personnes en environ {{minutes}} min.",
-        "notesTitle": "Notes de réunion",
-        "transcript": "Transcription",
-        "whoSpoke": "Intervenants",
-        "you": "Vous"
     }
 }
