@@ -9,9 +9,9 @@ ARG JITSI_WEB_IMAGE=jitsi/web:stable
 
 FROM node:24-bookworm AS build
 WORKDIR /src
-COPY package.json package-lock.json ./
-RUN npm ci --no-audit --no-fund
+# The whole tree is needed for npm ci: .npmrc (legacy-peer-deps), patches/ and the android/ scripts that postinstall runs.
 COPY . .
+RUN npm ci --no-audit --no-fund
 RUN make compile deploy \
  && mkdir -p /out/css \
  && cp -r *.js *.html resources/*.txt fonts images libs static sounds LICENSE lang /out/ \
