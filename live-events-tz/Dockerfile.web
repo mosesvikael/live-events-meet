@@ -1,0 +1,29 @@
+# LIVE EVENTS TZ web image.
+# Builds this fork of jitsi-meet and puts it inside the official Jitsi web image, so it works with the
+# standard docker-jitsi-meet stack (prosody, jicofo, jvb) unchanged.
+#
+# Build from the repository root:
+#   docker build -f live-events-tz/Dockerfile.web -t live-events-tz-web .
+
+ARG JITSI_WEB_IMAGE=jitsi/web:stable
+
+FROM node:24-bookworm AS build
+WORKDIR /src
+COPY package.json package-lock.json ./
+RUN npm ci --no-audit --no-fund
+COPY . .
+RUN make compile deploy \
+ && mkdir -p /out/css \
+ && cp -r *.js *.html resources/*.txt fonts images libs static sounds LICENSE lang /out/ \
+ && cp css/all.css /out/css/
+
+FROM ${JITSI_WEB_IMAGE}
+USER root
+# Replace the web app files but keep the image's own links (such as .well-known) and runtime config.
+COPY --from=build /out/ /usr/share/jitsi-meet/
+# The container generates interface_config.js from /defaults at start-up.
+RUN mv /usr/share/jitsi-meet/interface_config.js /defaults/interface_config.js \
+ && rm -f /usr/share/jitsi-meet/config.js
+LABEL org.opencontainers.image.title="LIVE EVENTS TZ web"
+LABEL org.opencontainers.image.description="Jitsi Meet fork with live captions (English, Kiswahili, French) and meeting notes."
+USER s6

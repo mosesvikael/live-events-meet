@@ -33,7 +33,9 @@ export type ToolbarButton = 'audiotranslation' |
     'highlight' |
     'invite' |
     'linktosalesforce' |
+    'livecaptions' |
     'livestreaming' |
+    'meetingnotes' |
     'microphone' |
     'mute-everyone' |
     'mute-video-everyone' |

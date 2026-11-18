@@ -114,7 +114,7 @@ body.welcome-page {
         }
 
         ::placeholder {
-            color: #253858;
+            color: #1F3A2E;
         }
 
         #enter_room {
@@ -133,7 +133,7 @@ body.welcome-page {
                 display: flex;
                 width: 100%;
                 text-align: left;
-                color: #253858;
+                color: #1F3A2E;
             }
 
             .enter-room-input-container {
@@ -151,7 +151,7 @@ body.welcome-page {
                     padding-left: 10px;
 
                     &.focus-visible {
-                        outline: auto 2px #005fcc;
+                        outline: auto 2px #E0A526;
                     }
                 }
             }
@@ -188,16 +188,16 @@ body.welcome-page {
         }
 
         .tab-buttons {
-            background-color: #c7ddff;
+            background-color: #D6EDE1;
             border-radius: 6px;
-            color: #0163FF;
+            color: #2F7D57;
             font-size: 0.875rem;
             line-height: 1.125rem;
             margin: 4px;
             display: $welcomePageTabButtonsDisplay;
 
             [role="tab"] {
-                background-color: #c7ddff;
+                background-color: #D6EDE1;
                 border-radius: 7px;
                 cursor: pointer;
                 display: $welcomePageTabDisplay;
@@ -308,7 +308,7 @@ body.welcome-page {
         }
 
         &--blue {
-            background: #D5E5FF;
+            background: #E4F2EA;
         }
 
         &--grey {
@@ -317,7 +317,7 @@ body.welcome-page {
 
         &--notification {
             background: #444447;
-            border-left: 4px solid #0163FF;
+            border-left: 4px solid #2F7D57;
             box-sizing: border-box;
             color: #fff;
             padding: 24px 32px;
@@ -339,7 +339,7 @@ body.welcome-page {
     }
 
     .welcome-notification-link {
-        color: #4C9AFF;
+        color: #7CC4A0;
         font-size: 16px;
         font-weight: 600;
         text-decoration: underline;

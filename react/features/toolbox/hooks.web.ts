@@ -28,6 +28,7 @@ import InviteButton from '../invite/components/add-people-dialog/web/InviteButto
 import { registerShortcut, unregisterShortcut } from '../keyboard-shortcuts/actions';
 import { areCtrlAltReactionShortcutsEnabled } from '../keyboard-shortcuts/functions';
 import { useKeyboardShortcutsButton } from '../keyboard-shortcuts/hooks';
+import { useLiveCaptionsButton, useMeetingNotesButton } from '../live-captions/hooks.web';
 import NoiseSuppressionButton from '../noise-suppression/components/NoiseSuppressionButton';
 import {
     close as closeParticipantsPane,
@@ -294,6 +295,8 @@ export function useToolboxButtons(
     const tileview = useTileViewButton();
     const chat = useChatButton();
     const cc = useClosedCaptionButton();
+    const liveCaptions = useLiveCaptionsButton();
+    const meetingNotes = useMeetingNotesButton();
     const audioTranslation = useAudioTranslationButton();
     const polls = usePollsButton();
     const filesharing = useFileSharingButton();
@@ -332,6 +335,8 @@ export function useToolboxButtons(
         fullscreen: _fullscreen,
         security,
         closedcaptions: cc,
+        livecaptions: liveCaptions,
+        meetingnotes: meetingNotes,
         audiotranslation: audioTranslation,
         polls,
         filesharing,

@@ -58,10 +58,10 @@ $unsupportedDesktopBrowserTextFontSize: 1.25rem;
 /**
  * The size of the default watermark.
  */
-$watermarkWidth: 71px;
+$watermarkWidth: 150px;
 $watermarkHeight: 32px;
 
-$welcomePageWatermarkWidth: 71px;
+$welcomePageWatermarkWidth: 150px;
 $welcomePageWatermarkHeight: 32px;
 
 /**
@@ -72,16 +72,16 @@ $welcomePageFontFamily: inherit;
 $welcomePageBackground: none;
 $welcomePageTitleColor: #fff;
 
-$welcomePageHeaderBackground: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/welcome-background.png');
+$welcomePageHeaderBackground: radial-gradient(circle at 85% 20%, rgba(224, 165, 38, 0.35), transparent 40%), linear-gradient(135deg, #12372A 0%, #1F5A40 55%, #0E4F63 100%);
 $welcomePageHeaderBackgroundPosition: center;
 $welcomePageHeaderBackgroundRepeat: none;
 $welcomePageHeaderBackgroundSize: cover;
 $welcomePageHeaderPadding: 1rem;
 $welcomePageHeaderTitleMaxWidth: initial;
 $welcomePageHeaderTextAlign: center;
-$welcomePageButtonBg: #0074E0;
-$welcomePageButtonHoverBg: #4687ED;
-$welcomePageButtonFocusOutline: #00225A;
+$welcomePageButtonBg: #2F7D57;
+$welcomePageButtonHoverBg: #3E8E68;
+$welcomePageButtonFocusOutline: #E0A526;
 
 $welcomePageHeaderContainerMarginTop: 104px;
 $welcomePageHeaderContainerDisplay: flex;

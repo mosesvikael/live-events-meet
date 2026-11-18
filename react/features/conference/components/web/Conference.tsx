@@ -22,6 +22,7 @@ import ScreenshareFilmstrip from '../../../filmstrip/components/web/ScreenshareF
 import StageFilmstrip from '../../../filmstrip/components/web/StageFilmstrip';
 import CalleeInfoContainer from '../../../invite/components/callee-info/CalleeInfoContainer';
 import LargeVideo from '../../../large-video/components/LargeVideo.web';
+import LiveCaptionsOverlay from '../../../live-captions/components/web/LiveCaptionsOverlay';
 import LobbyScreen from '../../../lobby/components/web/LobbyScreen';
 import { getIsLobbyVisible } from '../../../lobby/functions';
 import SecondScreenPortals from '../../../multi-screen/components/SecondScreenPortals';
@@ -308,6 +309,7 @@ class Conference extends AbstractConference<IProps, any> {
                                 <StageFilmstrip />
                                 <ScreenshareFilmstrip />
                                 <MainFilmstrip />
+                                <LiveCaptionsOverlay />
                             </>)
                         }
                     </div>
