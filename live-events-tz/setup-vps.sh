@@ -8,7 +8,7 @@
 set -euo pipefail
 
 : "${DOMAIN:?Set DOMAIN, for example DOMAIN=meet.example.co.tz}"
-: "${EMAIL:?Set EMAIL for the Let's Encrypt certificate}"
+: "${EMAIL:?Set EMAIL for the HTTPS certificate}"
 WEB_IMAGE="${LIVE_EVENTS_WEB_IMAGE:-ghcr.io/mosesvikael/live-events-tz-web:latest}"
 DIR="${INSTALL_DIR:-/opt/live-events-tz}"
 TZ_NAME="${TZ_NAME:-Africa/Dar_es_Salaam}"
