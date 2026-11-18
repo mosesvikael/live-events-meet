@@ -36,7 +36,7 @@ Steps:
    to **Public**, so the server can download it without a login.
 3. SSH into the server and run:
    ```bash
-   curl -fsSL https://raw.githubusercontent.com/mosesvikael/live-events-tz-meet/master/live-events-tz/setup-vps.sh -o setup.sh
+   curl -fsSL https://raw.githubusercontent.com/mosesvikael/live-events-meet/master/live-events-tz/setup-vps.sh -o setup.sh
    sudo DOMAIN=meet.example.co.tz EMAIL=you@example.com bash setup.sh
    ```
 4. Open `https://meet.example.co.tz`.

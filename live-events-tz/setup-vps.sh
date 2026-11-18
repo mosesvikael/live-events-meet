@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # LIVE EVENTS TZ: one-shot setup on a fresh Ubuntu 22.04/24.04 VPS (4 GB RAM or more).
 #
-#   curl -fsSL https://raw.githubusercontent.com/mosesvikael/live-events-tz-meet/master/live-events-tz/setup-vps.sh -o setup.sh
+#   curl -fsSL https://raw.githubusercontent.com/mosesvikael/live-events-meet/master/live-events-tz/setup-vps.sh -o setup.sh
 #   sudo DOMAIN=meet.example.co.tz EMAIL=you@example.com bash setup.sh
 #
 # Before running: point the domain's DNS A record at this server's public IP.
