@@ -763,6 +763,33 @@
         "screenIsShared": "You are sharing your screen",
         "showMeWhatImSharing": "Show me what I'm sharing"
     },
+    "liveEvents": {
+        "actionItems": "Action items",
+        "captionsBlocked": "Allow microphone access for this site and turn captions on again.",
+        "captionsError": {
+            "language-not-supported": "This language is not supported for captions.",
+            "not-allowed": "Captions were blocked.",
+            "service-not-allowed": "Captions were blocked."
+        },
+        "captionsLanguageUnsupported": "Your browser can't caption this language. Change the language in Settings.",
+        "captionsOff": "Stop live captions",
+        "captionsOn": "Live captions",
+        "captionsStopped": "Live captions stopped",
+        "captionsTooltip": "Caption your voice for everyone, in the language set in Settings",
+        "captionsUnsupported": "This browser can't caption your voice. Use Chrome or Edge. You can still read other people's captions.",
+        "copied": "Copied",
+        "copyNotes": "Copy notes",
+        "downloadNotes": "Download notes and transcript (.txt)",
+        "keyPoints": "Key points",
+        "none": "None detected yet.",
+        "notesDraft": "Rule-based draft from live captions and public chat.",
+        "notesEmpty": "Nothing to summarize yet. Turn on Live captions and speak, or send a chat message.",
+        "notesSummary": "{{count}} contributions from {{people}} people in about {{minutes}} min.",
+        "notesTitle": "Meeting notes",
+        "transcript": "Transcript",
+        "whoSpoke": "Who spoke",
+        "you": "You"
+    },
     "liveStreaming": {
         "badRequest": "The live stream request is not valid. Check the stream key and the stream settings.",
         "busy": "We're working on freeing streaming resources. Please try again in a few minutes.",
@@ -1861,7 +1888,7 @@
             "roomname": "Enter room name"
         },
         "addMeetingName": "Add Meeting name",
-        "appDescription": "Go ahead, video chat with the whole team. In fact, invite everyone you know. {{app}} is a fully encrypted, 100% open source video conferencing solution that you can use all day, every day, for free — with no account needed.",
+        "appDescription": "Meet with your team, clients or community. {{app}} gives everyone live captions with speaker names and writes meeting notes with action items. No account needed.",
         "audioVideoSwitch": {
             "audio": "Voice",
             "video": "Video"
@@ -1873,8 +1900,8 @@
         "getHelp": "Get help",
         "go": "GO",
         "goSmall": "GO",
-        "headerSubtitle": "Secure and high quality meetings",
-        "headerTitle": "Jitsi Meet",
+        "headerSubtitle": "Meet live. Leave with notes.",
+        "headerTitle": "LIVE EVENTS TZ",
         "info": "Dial-in info",
         "jitsiOnMobile": "Jitsi on mobile – download our apps and start a meeting from anywhere",
         "join": "CREATE / JOIN",
@@ -1904,7 +1931,7 @@
         "settings": "Settings",
         "startMeeting": "Start meeting",
         "terms": "Terms",
-        "title": "Secure, fully featured, and completely free video conferencing",
+        "title": "Video meetings with live captions in English, Kiswahili and French",
         "upcomingMeetings": "Your upcoming meetings"
     },
     "whiteboard": {

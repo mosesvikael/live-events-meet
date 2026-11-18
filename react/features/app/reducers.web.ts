@@ -19,6 +19,7 @@ import '../screenshot-capture/reducer';
 import '../talk-while-muted/reducer';
 import '../time-timer/reducer';
 import '../virtual-background/reducer';
+import '../live-captions/reducer';
 import '../file-sharing/reducer';
 
 import './reducers.any';

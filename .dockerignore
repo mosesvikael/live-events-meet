@@ -1,0 +1,9 @@
+node_modules
+libs
+build
+source_package
+*.tar.bz2
+.git
+android
+ios
+react-native-sdk

@@ -1,0 +1,4 @@
+# Copy next to docker-jitsi-meet's docker-compose.yml. It swaps the stock web app for LIVE EVENTS TZ.
+services:
+    web:
+        image: ${LIVE_EVENTS_WEB_IMAGE:-ghcr.io/mosesvikael/live-events-tz-web:latest}
